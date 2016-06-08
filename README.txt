@@ -1,8 +1,7 @@
+It is a verilog implementation for a subset of MIPS instruction set done as course project for advanced computer architecture course. this implementation is dynamic scheduling and multiple issue.
 this implementation is based on the method described in chap.3 of course book (using reservation stations, and reorder buffer) plus multiple issue capability,
 
 
-because of the way implemented in fetching logic simulation end condition based on PC was not working so
-i removed that and added two lines of code to my main module (MIPS.v) so that when the wait branch taked the execution stops.
 module list:
 1. MIPS.v : main module
 2. decode.v : decoder module(issue logic)
@@ -19,4 +18,3 @@ module list:
 
 
 mohammad hossein keshhavarz
-94205393
